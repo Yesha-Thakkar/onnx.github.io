@@ -2,7 +2,6 @@ import os
 import sys
 import warnings
 import skl2onnx
-import pydata_sphinx_theme
 import onnx
 import sphinx_bootstrap_theme
 
