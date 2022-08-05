@@ -113,14 +113,6 @@ mathdef_link_only = True
 
 # \\usepackage{eepic}
 
-#Code to generate include.rst
-#files = os.listdir('../onnx_doc_folder')
-
-#with open('include.rst', 'w') as file:
-    #for f in files:
-        #if (f != 'index.rst'):
-            #file.write('.. include:: ../onnx_doc_folder/' + f + '\n')
-
 
 
 intersphinx_mapping.update({
