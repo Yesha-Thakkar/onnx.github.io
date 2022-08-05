@@ -1,8 +1,6 @@
 on:
   schedule:
   - cron: '00 00 * * MON'
-  pull_request:
-    branches: [test]
   workflow_dispatch:
 
 jobs:
@@ -16,6 +14,7 @@ jobs:
 
       - name: Build Docs
         run: cd docs/ && make html
+        
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
